@@ -16,9 +16,7 @@ services:
         value: admin
       - key: N8N_BASIC_AUTH_PASSWORD
         generateValue: true
-    disk:
-      name: data
-      mountPath: /home/node/.n8n
+  
 
 databases:
   - name: n8n-db
